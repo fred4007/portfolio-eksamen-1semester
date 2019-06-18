@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="379" height="818" viewBox="0 0 379 818">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="13.557" height="13.557" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="288.357" height="13.557" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Shape" d="M338.259-26.667h14.121a2.259,2.259,0,0,1,2.259,2.259v5.084h0a2.259,2.259,0,0,1-2.259,2.259H338.259A2.259,2.259,0,0,1,336-19.323v-5.084h0A2.259,2.259,0,0,1,338.259-26.667Z" transform="translate(-336 26.667)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Shape-2" data-name="Shape" d="M359-23v3.389a1.839,1.839,0,0,0,1.125-1.695A1.839,1.839,0,0,0,359-23" transform="translate(-359 23)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Shape-3" data-name="Shape" d="M339.13-24.667h12.992a1.13,1.13,0,0,1,1.13,1.13v3.954h0a1.13,1.13,0,0,1-1.13,1.13H339.13a1.13,1.13,0,0,1-1.13-1.13v-3.954h0A1.13,1.13,0,0,1,339.13-24.667Z" transform="translate(-338 24.667)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <path id="Shape-4" data-name="Shape" d="M322.164-24.74a7.321,7.321,0,0,1,5.044,2.015.261.261,0,0,0,.367,0l.979-.989a.272.272,0,0,0,.079-.194.272.272,0,0,0-.081-.193,9.233,9.233,0,0,0-12.777,0,.273.273,0,0,0-.082.193.273.273,0,0,0,.079.194l.98.989a.261.261,0,0,0,.367,0,7.321,7.321,0,0,1,5.044-2.015Zm0,3.216a4.157,4.157,0,0,1,2.791,1.076.263.263,0,0,0,.367,0l.978-.989a.273.273,0,0,0,.079-.2.273.273,0,0,0-.083-.194,6.066,6.066,0,0,0-8.263,0,.273.273,0,0,0-.083.194.273.273,0,0,0,.08.2l.978.989a.263.263,0,0,0,.367,0,4.157,4.157,0,0,1,2.789-1.076Zm1.88,2.359a.266.266,0,0,0,.08-.2.266.266,0,0,0-.088-.192,2.9,2.9,0,0,0-3.744,0,.266.266,0,0,0-.088.192.266.266,0,0,0,.079.2l1.693,1.708a.264.264,0,0,0,.188.078.264.264,0,0,0,.188-.078Z" transform="translate(-315.694 26.669)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <path id="Shape-5" data-name="Shape" d="M294.514-20.685h.847a.847.847,0,0,1,.847.847v1.695a.847.847,0,0,1-.847.847h-.847a.847.847,0,0,1-.847-.847v-1.695a.847.847,0,0,1,.847-.847Zm3.954-1.695h.847a.847.847,0,0,1,.847.847v3.389a.847.847,0,0,1-.847.847h-.847a.847.847,0,0,1-.847-.847v-3.389A.847.847,0,0,1,298.468-22.379Zm3.954-1.977h.847a.847.847,0,0,1,.847.847v5.366a.847.847,0,0,1-.847.847h-.847a.847.847,0,0,1-.847-.847v-5.366A.847.847,0,0,1,302.422-24.356Zm3.954-1.977h.847a.847.847,0,0,1,.847.847v7.343a.847.847,0,0,1-.847.847h-.847a.847.847,0,0,1-.847-.847v-7.343a.847.847,0,0,1,.847-.847Z" transform="translate(-293.667 26.333)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_10" data-name="Group 10" transform="translate(-941 -9310)">
+    <g id="Rectangle_16" data-name="Rectangle 16" transform="translate(941 9310)" fill="none" stroke="#fff" stroke-width="3">
+      <rect width="379" height="818" rx="63" stroke="none"/>
+      <rect x="1.5" y="1.5" width="376" height="815" rx="61.5" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(1106 10041)" fill="none" stroke="#fff" stroke-width="3">
+      <circle cx="30" cy="30" r="30" stroke="none"/>
+      <circle cx="30" cy="30" r="28.5" fill="none"/>
+    </g>
+    <g id="Rectangle_17" data-name="Rectangle 17" transform="translate(1094 9360)" fill="none" stroke="#fff" stroke-width="3">
+      <rect width="84" height="10" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="81" height="7" rx="3.5" fill="none"/>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(-4066 197)">
+      <rect id="Rectangle_1459" data-name="Rectangle 1459" width="320.276" height="457.36" transform="translate(5037 9358.641)" fill="#faf7f7"/>
+      <g id="Header" transform="translate(5039.542 9201.345)">
+        <rect id="Rectangle_134" data-name="Rectangle 134" width="317.734" height="158.513" fill="#ea5045"/>
+        <text id="ADOBE_XD" data-name="ADOBE XD" transform="translate(155.202 132.218)" fill="#ea5045" font-size="24" font-family="ArialMT, Arial"><tspan x="-62.016" y="0">ADOBE</tspan><tspan y="0" xml:space="preserve" font-family="Arial-BoldMT, Arial" font-weight="700"> XD</tspan></text>
+      </g>
+      <g id="inputs" transform="translate(5073.434 9432.354)">
+        <rect id="Rectangle_123" data-name="Rectangle 123" width="249.951" height="40.67" rx="20.335" transform="translate(0 0)" fill="#fff"/>
+        <text id="johndoe_mail.com" data-name="johndoe@mail.com" transform="translate(21.335 23.557)" fill="#ea5045" font-size="11" font-family="ArialMT, Arial"><tspan x="0" y="0">johndoe@mail.com</tspan></text>
+      </g>
+      <g id="inputs-2" data-name="inputs" transform="translate(5073.434 9493.359)">
+        <rect id="Rectangle_123-2" data-name="Rectangle 123" width="249.951" height="40.67" rx="20.335" transform="translate(0 0)" fill="#fff"/>
+        <text id="_" data-name="●●●●●●●" transform="translate(21.182 23.557)" fill="#ea5045" font-size="11" font-family="ArialMT, Arial"><tspan x="0" y="0">●●●●●●●</tspan></text>
+      </g>
+      <g id="Login" transform="translate(5073.434 9745.853)">
+        <g id="Rectangle_133" data-name="Rectangle 133" transform="translate(0 0)" fill="none" stroke="#ea5045" stroke-width="2">
+          <rect width="249.951" height="40.67" rx="20.335" stroke="none"/>
+          <rect x="1" y="1" width="247.951" height="38.67" rx="19.335" fill="none"/>
+        </g>
+        <text id="LOGIN_WITH_FACEBOOK" data-name="LOGIN WITH FACEBOOK" transform="translate(122.562 23.099)" fill="#ea5045" font-size="8" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-47.775" y="0">LOGIN WITH FACEBOOK</tspan></text>
+        <g id="Facebook_1" data-name="Facebook – 1" transform="translate(17.793 13.557)" clip-path="url(#clip-path)">
+          <rect id="Rectangle_1458" data-name="Rectangle 1458" width="13.557" height="13.557" fill="none"/>
+          <path id="Path_1" data-name="Path 1" d="M84.594,13.557V7.381H86.7l.3-2.41h-2.41V3.464c0-.678.226-1.205,1.205-1.205h1.28V.075C86.778.075,86.025,0,85.2,0a2.907,2.907,0,0,0-3.088,3.163V4.971H80v2.41h2.109v6.176Z" transform="translate(-76.611)" fill="#ea5045" fill-rule="evenodd"/>
+        </g>
+      </g>
+      <g id="Continue" transform="translate(5073.434 9690.778)">
+        <rect id="Rectangle_132" data-name="Rectangle 132" width="249.951" height="40.67" rx="20.335" transform="translate(0 0)" fill="#ea5045"/>
+        <text id="CONTINUE-2" data-name="CONTINUE" transform="translate(124.369 23.099)" fill="#fff" font-size="8" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-20.889" y="0">CONTINUE</tspan></text>
+      </g>
+      <rect id="Divider" width="20.335" height="3.389" rx="1.695" transform="translate(5188.665 9640.788)" fill="#dedcdb"/>
+      <g id="status-bar-dark" transform="translate(5053.099 9210.931)" clip-path="url(#clip-path-2)">
+        <g id="Battery" transform="translate(267.744 1.977)">
+          <g id="Border" clip-path="url(#clip-path-3)">
+            <path id="Fill" d="M2.259,0H16.381A2.259,2.259,0,0,1,18.64,2.259V7.343h0A2.259,2.259,0,0,1,16.381,9.6H2.259A2.259,2.259,0,0,1,0,7.343V2.259H0A2.259,2.259,0,0,1,2.259,0Z" fill="none" stroke="rgba(0,0,0,0.3)" stroke-width="2"/>
+          </g>
+          <g id="Cap" transform="translate(19.488 3.107)" clip-path="url(#clip-path-4)">
+            <path id="Fill-2" data-name="Fill" d="M354-28h9.6v11.862H354Z" transform="translate(-358.236 23.764)" fill="rgba(0,0,0,0.3)"/>
+          </g>
+          <g id="Capacity" transform="translate(1.695 1.695)" clip-path="url(#clip-path-5)">
+            <path id="Fill-3" data-name="Fill" d="M333-29.667h23.724V-14.98H333Z" transform="translate(-337.236 25.43)" fill="#2b2f3b"/>
+          </g>
+        </g>
+        <g id="Wifi" transform="translate(250.538 1.975)">
+          <g id="Wifi-2" data-name="Wifi" clip-path="url(#clip-path-6)">
+            <path id="Fill-4" data-name="Fill" d="M310.694-31.669h21.413v17.764H310.694Z" transform="translate(-314.93 27.433)" fill="#2b2f3b"/>
+          </g>
+        </g>
+        <g id="Cellular_Connection" data-name="Cellular Connection" transform="translate(231.875 2.259)">
+          <g id="Cellular_Connection-2" data-name="Cellular Connection" clip-path="url(#clip-path-7)">
+            <path id="Fill-5" data-name="Fill" d="M288.667-31.333h22.877v17.511H288.667Z" transform="translate(-292.903 27.097)" fill="#2b2f3b"/>
+          </g>
+        </g>
+        <g id="Bars___Time_Black" data-name="Bars/_/Time Black">
+          <path id="Background" d="M21-21.443H66.754V-35H21Z" transform="translate(-21 35)" fill="none"/>
+          <path id="_Time" data-name="↳ Time" d="M15.881,11.659c2.126,0,3.388-1.662,3.388-4.477a5.368,5.368,0,0,0-.591-2.641A2.962,2.962,0,0,0,15.928,2.89a2.906,2.906,0,0,0-3.1,2.937,2.676,2.676,0,0,0,2.751,2.78,2.311,2.311,0,0,0,2.166-1.251h.1c0,1.911-.724,3.052-1.946,3.052a1.454,1.454,0,0,1-1.465-1.025H12.939A2.816,2.816,0,0,0,15.881,11.659Zm.052-4.24A1.58,1.58,0,0,1,14.289,5.78a1.651,1.651,0,1,1,3.3.023A1.588,1.588,0,0,1,15.934,7.419ZM21.9,10.57a.915.915,0,1,0-.927-.915A.888.888,0,0,0,21.9,10.57Zm0-4.344a.884.884,0,0,0,.927-.909.927.927,0,0,0-1.853,0A.887.887,0,0,0,21.9,6.226Zm6.7,5.23h1.431V9.9h1.129V8.635H30.032V3.1H27.924c-1.477,2.224-2.653,4.083-3.406,5.468V9.9H28.6ZM25.9,8.583c.973-1.714,1.842-3.087,2.641-4.269h.081V8.67H25.9Zm8.686,2.873h1.494V3.1H34.594L32.41,4.627V6.064L34.49,4.6h.1Z" transform="translate(-1.958 1.253)" fill="#2b2f3b"/>
+        </g>
+      </g>
+      <g id="Group_7" data-name="Group 7" transform="translate(5144.718 9260.137)">
+        <g id="Artwork_2" data-name="Artwork 2" transform="translate(0 0)">
+          <g id="Artwork_2-2" data-name="Artwork 2" transform="translate(0 0)">
+            <path id="Path_115" data-name="Path 115" d="M118.049,0H99.6V4.632h18.147c6.226,0,8.125,1.974,8.58,5.011h-18.6C100.813,9.643,97.7,12.3,97.7,18.3s3.113,8.732,10.1,8.732h23.083V11.617C130.957,3.8,126.705,0,118.049,0m8.428,22.475H108.33c-5.695,0-5.923-1.291-5.923-4.176s.607-4.024,6-4.024h18Z" transform="translate(-23.516 0)" fill="#fff"/>
+            <path id="Path_116" data-name="Path 116" d="M51.66,17.236H70.11c6.91,0,10.023-2.658,10.023-8.58S77.1,0,70.035,0H60.164C48.47,0,46.8,6.53,46.8,13.591s1.67,13.516,13.288,13.516H78.994V22.551H60.467c-6.378,0-8.2-1.67-8.808-5.239M60.467,4.48h9.112c5.391,0,5.923,1.291,5.923,4.176s-.532,3.948-6,3.948H51.432c.152-5.695,1.595-8.124,9.036-8.124" transform="translate(-11.265)" fill="#fff"/>
+            <path id="Path_117" data-name="Path 117" d="M26.575,0,4.556,21.033V0H0V27.107H4.86l10.554-10.1,12,10.1h7.213L18.755,13.819,33.181,0Z" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

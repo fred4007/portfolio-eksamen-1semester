@@ -1,0 +1,66 @@
+/**********VIRKSOMHEDSVIDEO_MASH*********/
+
+#virksomhedsvideo_mash {
+    background-color: #E6DBDB;
+}
+
+.baggrundsfoto img {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    position: relative;
+    margin-bottom: -100px;
+
+}
+
+.play_1 img {
+    width: 15vw;
+    height: 15vw;
+    top: -30vw;
+    left: 40vw;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*******VIRKSOMHEDSVIDEO_PRIVATSNAK******/
+
+#virksomhedsvideo_privatsnak {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #E6DBDB;
+    color: black;
+    margin-bottom: -50px;
+
+}
+
+#virksomhedsvideo_privatsnak img {
+    width: 100%;
+}
+
+#virksomhedsvideo_privatsnak .txt {
+    padding: 5vw;
+    margin-left: -20px;
+    margin-top: -60px;
+
+
+}
+
+#virksomhedsvideo_privatsnak h2 {
+    font-size: 3vw;
+}
+
+#virksomhedsvideo_privatsnak p {
+    font-size: 1.3vw;
+}
+
+.play_2 {
+    width: 7vw;
+    height: 7vw;
+    position: relative;
+    z-index: 2;
+    background-color: aqua;
+    top: -18vw;
+    left: 22vw;
+}

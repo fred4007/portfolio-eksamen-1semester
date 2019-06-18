@@ -1,0 +1,1228 @@
+/********FONT********/
+
+@font-face {
+    font-family: 'american typewriter';
+    src: url('fonts/AmericanTypewriter.woff2') format('woff2'),
+        url('fonts/AmericanTypewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p,
+h1,
+h2,
+h3,
+a,
+figure {
+    font-family: 'american typewriter';
+    font-weight: 500;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*******BODY*********/
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+/********GRÅ MOUSEOVER PÅ ALLE FOTOS******/
+
+img {
+    filter: gray;
+    filter: grayscale(1);
+    transition: all .5s ease-in-out;
+}
+
+img:hover {
+    filter: none;
+    filter: grayscale(0);
+    transform: scale(1.01);
+}
+
+.splashfoto img {
+    filter: none;
+    transform: none;
+    transition: none;
+}
+
+header img {
+    filter: none;
+    transform: none;
+    transition: none;
+}
+
+.underline {
+    filter: none;
+    filter: grayscale(1);
+}
+
+
+
+
+/***********DEKSTOP**********/
+
+/********MENU - desktop*********/
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    color: black;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    color: #E6DBDB;
+}
+
+.active {
+    color: #E6DBDB;
+}
+
+/************BURGER MENU - desktop*******/
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+}
+
+/*******HEADER - dekstop*******/
+
+header img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: -50px;
+}
+
+.logo img {
+    width: 8vw;
+    height: 8vw;
+    margin: 6px;
+}
+
+/*******SPLASH på forside - mobil********/
+
+#splash {
+    width: 100vw;
+    height: 110vw;
+    background-image: url(splashfotofinal.svg);
+    background-size: cover;
+    background-position: 75%;
+    margin-top: -60px;
+}
+
+.title {
+    font-size: 7vw;
+    margin-left: 5vw;
+}
+
+.underline {
+    width: 100vw;
+    font-size: 4vw;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0vw;
+    margin-left: 0vw;
+}
+
+.underline p {
+    margin-bottom: 0px;
+}
+
+
+/********OVERSKRIFTER TIL GRUNDLÆGGENDE WEBDESIGN, ANIMATION, INDHOLD, UX - desktop*******/
+
+#grundlaeggende_web,
+#grundlaeggende_animation,
+#grundlaeggende_indhold,
+#grundlaeggende_ux {
+    padding-top: 3vw;
+    margin-bottom: -4vw;
+    text-align: center;
+}
+
+#grundlaeggende_web,
+#grundlaeggende_indhold {
+    color: white;
+    background-color: #3e3e3e;
+    font-size: 2vw;
+}
+
+#grundlaeggende_animation {
+    color: black;
+    font-size: 2vw;
+    background-color: #E6DBDB;
+}
+
+#grundlaeggende_ux {
+    color: white;
+    background-color: #E6DBDB;
+    font-size: 2vw;
+}
+
+/********LINJER TIL UNDER OVERSKRIFTERNE - desktop*******/
+
+.linje {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10vw;
+    width: 10vw;
+    margin: 0vw 45vw 0vw 45vw;
+}
+
+/**********PORTFOLIO - dekstop**********/
+
+#portfolio {
+    background-color: #E6DBDB;
+}
+
+
+#portfolio h1 {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+#portfolio .col1 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#portfolio .col2 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-left: 0vw;
+    margin-top: -25px;
+}
+
+#portfolio img {
+    width: 46vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#portfolio figure {
+    margin: 2vw;
+    margin-top: -2px;
+    max-width: 100vw;
+    box-shadow: 3px 4px 15px -1px rgba(0, 0, 0, 0.75);
+    background-color: white;
+
+}
+
+#portfolio figcaption {
+    font-size: 2vw;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 40vw;
+    padding: 3vw;
+    margin-bottom: 70px;
+}
+
+
+/********FAVICONS - dekstop*********/
+
+#favicons {
+    background-color: #3e3e3e;
+    padding-top: 10vw;
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+    padding-bottom: 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vw;
+}
+
+#favicons figure {
+    margin: 1vw;
+    box-shadow: 3px 4px 15px -1px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    margin-bottom: 4vw;
+}
+
+#favicons img {
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+}
+
+#favicons figcaption {
+    font-size: 1.3vw;
+    color: black;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    text-align: center;
+}
+
+#favicons .txt {
+    margin-top: 10vw;
+    width: 38vw;
+    padding: 6vw;
+}
+
+#favicons p {
+    font-size: 1.3vw;
+}
+
+#favicons h2 {
+    font-size: 3vw;
+}
+
+
+
+/************STILARTSSIDE - desktop*********/
+
+#stilartsside {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+#stilartsside img {
+    width: 50vw;
+    margin: 15vw 5vw;
+}
+
+#stilartsside .txt {
+    margin: 5vw 5vw 5vw 0vw;
+    color: black;
+}
+
+#stilartsside h2 {
+    font-size: 3vw;
+}
+
+#stilartsside p {
+    font-size: 1.3vw;
+}
+
+
+/*********ANIMATIONSSPIL - desktop**********/
+
+#animationsspil {
+    background-color: #E6DBDB;
+    padding-top: 1vw;
+    font-size: 5vw;
+    color: black;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.animationsspil2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+#animationsspil figure {
+    margin: 0vw;
+    max-width: 100vw;
+    box-shadow: 3px 4px 15px -1px rgba(0, 0, 0, 0.75);
+    background-color: white;
+}
+
+#animationsspil img {
+    display: flex;
+    justify-content: space-between;
+    width: 39vw;
+}
+
+#animationsspil h2 {
+    font-size: 3vw;
+    margin-top: -40px;
+}
+
+#animationsspil figcaption {
+    font-size: 1.3vw;
+    background-color: white;
+    color: black;
+    width: 29vw;
+    padding: 2vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#animationsspil .txt {
+    display: flex;
+    font-size: 1.3vw;
+    margin: 8vw;
+    margin-top: 3vw;
+}
+
+
+#animationsspil .col1 {
+    width: 90vw;
+    margin-right: 3vw;
+}
+
+#animationsspil .col2 {
+    width: 90vw;
+    margin-left: 3vw;
+}
+
+#animationsspil h3 {
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    border-width: 1px;
+    padding: 20px;
+    font-size: 1.2vw;
+    margin-top: 25px;
+}
+
+
+/**********VIRKSOMHEDSVIDEO_MASH - dekstop*********/
+
+#virksomhedsvideo_mash {
+    background-color: #E6DBDB;
+}
+
+.baggrundsfoto img {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    position: relative;
+    margin-bottom: -100px;
+
+}
+
+.play_1 img {
+    width: 15vw;
+    height: 15vw;
+    top: -30vw;
+    left: 40vw;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*******VIRKSOMHEDSVIDEO_PRIVATSNAK - dekstop******/
+
+#virksomhedsvideo_privatsnak {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #E6DBDB;
+    color: black;
+    margin-bottom: -50px;
+
+}
+
+#virksomhedsvideo_privatsnak img {
+    width: 100%;
+}
+
+#virksomhedsvideo_privatsnak .txt {
+    padding: 5vw;
+    margin-left: -20px;
+    margin-top: -5vw;
+}
+
+#virksomhedsvideo_privatsnak h2 {
+    font-size: 3vw;
+}
+
+#virksomhedsvideo_privatsnak p {
+    font-size: 1.3vw;
+}
+
+.play_2 {
+    width: 7vw;
+    height: 7vw;
+    position: relative;
+    z-index: 2;
+    top: -18vw;
+    left: 22vw;
+}
+
+
+/*********REDESIGN AF MASH WEBSITE - desktop*******/
+
+#redesign {
+    margin-bottom: 5vw;
+    margin-top: 10vw;
+}
+
+#redesign .foto img {
+    width: 90vw;
+    margin: 5vw;
+}
+
+#redesign h2 {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 0px;
+}
+
+#redesign .txt {
+    display: flex;
+    font-size: 1.3vw;
+    margin: 5vw;
+}
+
+#redesign .col1,
+#redesign .col2 {
+    width: 100vw;
+}
+
+#redesign h3 {
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    border-width: 1px;
+    padding: 20px;
+    font-size: 1.2vw;
+    margin-top: 25px;
+    text-align: center;
+    margin: 25px 30vw 0vw 30vw;
+}
+
+#redesign .doku1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/**********REDESIGN AF MOBILVERSION - desktop*******/
+
+#redesign_mobil {
+    background-color: #E6DBDB;
+    color: white;
+    padding-bottom: 5vw;
+}
+
+#redesign_mobil h2 {
+    text-align: center;
+    font-size: 3vw;
+    padding-bottom: 4vw;
+}
+
+#redesign_mobil .txt {
+    color: black;
+    background-color: white;
+    font-size: 1.3vw;
+    padding: 2vw;
+    text-align: center;
+    box-shadow: 3px 4px 15px -1px rgba(0, 0, 0, 0.75);
+    padding: 5vw;
+}
+
+#redesign_mobil .foto,
+#redesign_mobil .wrapper {
+    display: flex;
+
+}
+
+#redesign_mobil img {
+    width: 20vw;
+}
+
+
+#redesign_mobil .foto1 {
+    margin: 60px 15px 0px 35px;
+}
+
+#redesign_mobil .foto2 {
+    margin: 0px 15px;
+}
+
+#redesign_mobil h3 {
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    padding: 20px;
+    font-size: 1.2vw;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+/***********NATIVE APP - dekstop*********/
+
+#native_app h2 {
+    color: black;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 6vw;
+
+}
+
+#native_app .sectionwrapper h2 {
+    color: black;
+    text-align: center;
+}
+
+#native_app img {
+    width: 20vw;
+    margin-left: 7vw;
+    margin-bottom: 8vw;
+}
+
+#native_app .wrapper {
+    display: flex;
+    margin-bottom: 0vw;
+}
+
+#native_app .headline {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    font-size: 1.3vw;
+    margin-top: 8vw;
+}
+
+#native_app .col1,
+.col2 {
+    margin-left: 5vw;
+    width: 30vw;
+}
+
+#native_app h3 {
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    border-width: 1px;
+    padding: 20px;
+    font-size: 1.2vw;
+    margin-top: 25px;
+    text-align: center;
+    margin: 35px 20vw 0vw 20vw;
+}
+
+#native_app .doku1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/*********ABOUT - desktop*********/
+
+
+#about {
+    background-color: #E6DBDB;
+}
+
+#about h1 {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+#about .sectionwrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#about img {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#about figure {
+    margin: 0vw;
+    margin-left: 30px;
+    max-width: 100vw;
+    box-shadow: 3px 4px 15px -1px rgba(0, 0, 0, 0.75);
+    background-color: white;
+}
+
+#about figcaption {
+    font-size: 1.3vw;
+    background-color: white;
+    color: black;
+    width: 29vw;
+    padding: 5vw;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#about .txt {
+    font-size: 1.7vw;
+    color: black;
+    text-align: center;
+    margin: 60px;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+#about .skitse img {
+    transform: scale(2.5) translateX(12vw) translateY(-4vw);
+}
+
+
+/********FOOTER - desktop***********/
+
+footer {
+    background-color: #3e3e3e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+    font-family: 'american typewriter';
+    font-size: 1.3vw;
+}
+
+
+
+
+
+/********MEDIA********/
+
+/********HEADER - mobil*******/
+
+@media only screen and (max-width: 600px) {
+
+    .logo img {
+        width: 30vw;
+        height: 30vw;
+        margin: 3vw 35vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hiddenlogo {
+        display: none;
+    }
+}
+
+
+/********BURGERMENU mobil*********/
+
+@media only screen and (max-width: 600px) {
+
+    .hidden {
+        transform: translateY(-100%);
+        opacity: 0;
+
+    }
+
+    #menuknap {
+        display: inline-block;
+        top: 10px;
+        right: 10px;
+        position: absolute;
+        z-index: 1;
+        font-family: sans-serif;
+        font-size: 8vw;
+    }
+
+    #menu {
+        list-style-type: none;
+        transition: transform .3s;
+        transform-origin: top left;
+        background: rgba(255, 255, 255, 0.81);
+        z-index: 1;
+        padding: 40px;
+        margin-top: -1px;
+    }
+
+    #menu li {
+        padding-top: 30px;
+    }
+
+}
+
+/********SPLASH - desktop*******/
+
+@media (orientation: landscape) {
+    #splash {
+        width: 100vw;
+        height: 56.25vw;
+        background-position: 0% 0%;
+        margin-top: -26vw;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .title {
+        font-size: 4vw;
+        margin-top: 0vw;
+        margin-left: 10vw;
+    }
+
+
+    .underline {
+        width: 43vw;
+        font-size: 1vw;
+        text-align: center;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        margin-top: -37vw;
+        margin-left: 11vw;
+    }
+}
+
+/********OVERSKRIFTER - mobil********/
+
+@media only screen and (max-width: 600px) {
+
+    #grundlaeggende_web h1,
+    #grundlaeggende_indhold h1,
+    #grundlaeggende_ux h1,
+    #grundlaeggende_animation h1 {
+        font-size: 7vw;
+    }
+
+    #grundlaeggende_web,
+    #grundlaeggende_animation h1 {
+        padding-right: 6vw;
+        padding-left: 6vw;
+    }
+
+    #grundlaeggende_web {
+        margin-top: -5vw;
+    }
+
+    #grundlaeggende_indhold {
+        margin-top: -10vw;
+    }
+
+    #grundlaeggende_animation {
+        padding-bottom: 0vw;
+    }
+}
+
+/*******linje under overskrifter - mobil********/
+
+@media only screen and (max-width: 600px) {
+    .linje {
+        width: 15vw;
+        margin: 0vw 42vw;
+    }
+}
+
+/********PORTFOLIO - mobil********/
+
+@media only screen and (max-width: 600px) {
+    #portfolio .sectionwrapper {
+        margin: 5vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #portfolio figcaption {
+        font-size: 4vw;
+        width: 71vw;
+        padding: 5vw;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #portfolio img {
+        width: 100%;
+    }
+
+    #portfolio .col2 {
+        flex-direction: column;
+        width: 90vw;
+        margin-left: 0vw;
+        margin-right: -2vw;
+        margin-top: 0vw;
+        margin-bottom: 4vw;
+    }
+
+    #portfolio .col1 {
+        flex-direction: column;
+        width: 90vw;
+        margin-left: 0vw;
+        margin-right: -2vw;
+    }
+
+    #portfolio h1 {
+        font-size: 10vw;
+    }
+}
+
+
+/*******FAVICONS - mobil******/
+
+@media only screen and (max-width: 600px) {
+
+    #favicons {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: -50px;
+    }
+
+    .row1,
+    .row2 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+
+    #favicons figure {
+        max-width: 100vw;
+    }
+
+    #favicons img {
+        width: 26vw;
+    }
+
+    #favicons figcaption {
+        font-size: 2.5vw;
+    }
+
+    #favicons .txt {
+        margin: 0vw;
+        width: 100vw;
+        text-align: left;
+    }
+
+    #favicons p {
+        font-size: 4vw;
+        max-width: 100vw;
+        margin: 4vw 3vw;
+    }
+
+    #favicons h2 {
+        font-size: 5vw;
+        text-align: center;
+        margin-top: -10px;
+    }
+}
+
+
+/*******STILARTSSIDE - mobil******/
+
+@media only screen and (max-width: 600px) {
+
+    #stilartsside {
+        flex-direction: column;
+    }
+
+    #stilartsside img {
+        width: 85vw;
+        margin: 8vw;
+    }
+
+    #stilartsside .txt {
+        margin: -4vw 5vw 8vw 8vw;
+    }
+
+    #stilartsside h2 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    #stilartsside p {
+        font-size: 4vw;
+    }
+
+
+}
+
+/********ANIMATIONSSPIL - mobil******/
+
+@media only screen and (max-width: 600px) {
+    .animationsspil2 {
+        flex-direction: column;
+    }
+
+    #animationsspil img {
+        width: 84vw;
+    }
+
+    #animationsspil figure {
+        margin-bottom: 6vw;
+        margin-top: 8vw;
+
+    }
+
+    #animationsspil figcaption {
+        font-size: 3vw;
+        width: 74vw;
+        padding: 5vw;
+
+    }
+
+    #animationsspil h2 {
+        font-size: 5vw;
+        padding-top: 10vw;
+    }
+
+    #animationsspil .txt {
+        flex-wrap: wrap;
+        font-size: 4vw;
+        text-align: left;
+        padding-bottom: 10vw;
+    }
+
+    #animationsspil .col2 {
+        margin: 0px;
+    }
+
+    #animationsspil h3 {
+        font-size: 4vw;
+    }
+}
+
+
+
+/*******VIRKSOMHEDSVIDEOER - mobil******/
+
+@media only screen and (max-width: 600px) {
+    #virksomhedsvideo_mash {
+        padding-top: 0vw;
+        height: 100vw;
+    }
+
+    .play_1 img {
+        top: -10vw;
+        left: 40vw;
+    }
+
+    #virksomhedsvideo_privatsnak {
+        margin-top: -170px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .play_2 img {
+        width: 25vw;
+        height: 25vw;
+        top: -15vw;
+        left: 25vw;
+        position: relative;
+        z-index: 1;
+    }
+
+    #virksomhedsvideo_privatsnak .txt {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 4vw;
+        margin-top: -20px;
+    }
+
+    #virksomhedsvideo_privatsnak h2 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    #virksomhedsvideo_privatsnak p {
+        text-align: left;
+        font-size: 4vw;
+    }
+}
+
+
+/*********REDESIGN AF MASH WEBSITE - mobil*******/
+
+@media only screen and (max-width: 600px) {
+
+    #redesign {
+        margin-top: 20vw;
+    }
+
+    #redesign .txt {
+        flex-wrap: wrap;
+        font-size: 4vw;
+    }
+
+    #redesign .col2 {
+        margin: 0px;
+    }
+
+    #redesign p {
+        margin: 5vw;
+    }
+
+    #redesign h2 {
+        font-size: 5vw;
+    }
+
+    #redesign h3 {
+        font-size: 4vw;
+        margin: 0vw 10vw;
+    }
+}
+
+/*********REDESIGN AF MOBILVERSION - mobil*******/
+
+@media only screen and (max-width: 600px) {
+
+    #redesign_mobil h2 {
+        font-size: 5vw;
+    }
+
+    #redesign_mobil .txt {
+        font-size: 4vw;
+        margin: 0px 40px 20px 0px;
+        padding: 20px 20px 40px 20px;
+    }
+
+    #redesign_mobil p {
+        text-align: left;
+        padding-left: 3vw;
+    }
+
+    #redesign_mobil .txt h1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    #redesign_mobil img {
+        width: 32vw;
+        padding: 5vw 0vw 5vw 0vw;
+    }
+
+    #redesign_mobil .wrapper {
+        flex-direction: column;
+    }
+
+    #redesign_mobil h3 {
+        font-size: 2vw;
+    }
+}
+
+
+/********NATIVE APP - mobil*******/
+
+@media only screen and (max-width: 600px) {
+
+    #native_app h2 {
+        font-size: 5vw;
+        padding-top: 5vw;
+        padding-bottom: 8vw;
+    }
+
+    #native_app img {
+        width: 32vw;
+        padding: 0vw 25vw 0vw 25vw;
+        margin-top: -5vw;
+    }
+
+    #native_app .wrapper {
+        flex-direction: column;
+    }
+
+    #native_app .headline {
+        flex-direction: column;
+        font-size: 4vw;
+        margin-bottom: 10vw;
+    }
+
+    #native_app .col1,
+    .col2 {
+        margin-left: 40px;
+        text-align: left;
+        width: 80vw;
+    }
+
+    #native_app h3 {
+        font-size: 3vw;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/******ABOUT - mobil*******/
+
+@media only screen and (max-width: 600px) {
+    #about h1 {
+        font-size: 10vw;
+
+    }
+
+    #about .sectionwrapper {
+        flex-wrap: wrap;
+    }
+
+    #about .txt {
+        font-size: 4vw;
+        text-align: left;
+        margin: 10vw;
+        margin-top: -30px;
+    }
+
+    #about .skitse img {
+        transform: scale(1.5) translateX(0vw) translateY(-6vw);
+    }
+
+    #about img {
+        width: 80vw;
+        margin-left: 0px;
+    }
+
+
+    #about figure {
+        margin-left: 10vw;
+    }
+
+    #about figcaption {
+        font-size: 3vw;
+        width: 70vw;
+        padding: 5vw;
+    }
+
+    #about .skitse img {
+        width: 80vw;
+        height: 52vw;
+    }
+}
+
+
+/********FOOTER mobil******/
+
+@media only screen and (max-width: 600px) {
+
+    footer {
+        padding: 6vw 10vw;
+        font-size: 3vw;
+    }
+}
